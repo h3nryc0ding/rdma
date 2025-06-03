@@ -1,0 +1,13 @@
+[package]
+name = "ibverbs-sys"
+version = "0.0.1"
+edition = "2021"
+
+build = "build.rs"
+links = "ibverbs"
+
+[build-dependencies]
+pkg-config = "0.3.32"
+bindgen = "0.71.1"
+[dependencies]
+libc = "1.0.0-alpha.1"

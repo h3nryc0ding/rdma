@@ -1,3 +1,6 @@
 [workspace]
-members = ["crates/*", "examples/*"]
-resolver = "2"
+resolver = "3"
+members = [
+    "ibverbs-sys",
+    "ibverbs",
+]
